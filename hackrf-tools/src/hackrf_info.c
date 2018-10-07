@@ -52,7 +52,7 @@ int main(void)
 	list = hackrf_device_list();
 	
 	if (list->devicecount < 1 ) {
-		printf("No HackRF boards found.\n");
+		printf("No HackRF boards found. woopss\n");
 		return EXIT_FAILURE;
 	}
 	
